@@ -1,0 +1,22 @@
+#Bu otomasyon test amaçalı oluşturulmuştur. Kullanmak kendi sorumluluğunuzdadır. Bu dosyanın ismini .env olarak güncelleyip
+#aşağıdaki bilgileri kendi bilgileriniz ile değiştirmeniz gereklidir.
+
+AUTHORIZATION_TOKEN=abcd #ilgili api linki takip edilerek websitede bulunabilir
+departureStationId = 93 # istasyon kodları sitede bulunur
+departureStationName = ESKİŞEHİR
+arrivalStationId = 1323
+arrivalStationName = İSTANBUL(BOSTANCI)
+departureDate =  23-01-2025 21:00:00 # bilet araması yapılacak tarih ve saat bilgisi
+
+#yukarıdaki örnekte, ESKİŞEHİR istasyonundan, İSTANBUL(BOSTANCI) istasyonuna, 23.01.2025 tarihi, saat 21.00'dan sonraki
+#29536,30986,31174,30939 id'li seferlerde EKONOMİ koltuğunda boşluk bulunması halinde mail gönderimi gerçekleşir.
+
+train_id="29536,30986,31174,30939" #takibini yapmak istediğiniz sefer kodları
+cabin_name = EKONOMİ #takibini yapmak istediğiniz koltuk türü: BUSINESS, EKONOMİ, TEKERLEKLİ SANDELYE, YATAKLI
+
+gmail_user = mail_adresiniz@gmail
+gmail_password =abcd xbdz bdii plkf #gmail uygulama şifresi olarak aratıp şifrenizi alabilirsiniz
+to_email = mail_almak_istediğiniz_adres@gmail
+subject = tiren tiren uditurj079
+body =  wuntuntuntunu
+
