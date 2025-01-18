@@ -22,7 +22,7 @@ Gerekli bağımlılıkları yükleyin:
 
 pip install -r requirements.txt
 
-Konfigürasyon dosyasını düzenleyin ve API erişim bilgilerinizi girin.
+.env dosyasını düzenleyin ve API erişim bilgilerinizi girin.
 
 Otomasyonu çalıştırarak belirli seferler için bilet sorgulaması yapın.
 
